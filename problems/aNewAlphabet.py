@@ -1,4 +1,4 @@
-"""(Correct 7/7) Sol #1: 0.05s"""
+"""(Correct 7/7) Sol #1: 0.05 Diff:2.3"""
 
 newAlph = {
     'a' : '@',
