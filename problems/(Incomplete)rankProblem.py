@@ -19,8 +19,7 @@ for line in sys.stdin:
     elif games:
         teams = int(line.split()[0])
         games = int(line.split()[1])
-        for team in range(teams):
-            rankings.append(team+1)
+        for team in range(teams): rankings.append(team+1)
 
     if numgames == games:
         for i in range(len(rankings)):
